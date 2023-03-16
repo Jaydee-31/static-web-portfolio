@@ -1,0 +1,39 @@
+footer {
+    background-color: var(--footer-color);
+    padding: 50px;
+    text-align: center;
+}
+
+a img{
+    width: 35px;
+    height: 35px;
+    background: #ff4321;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.social-links a img:hover{
+    transform: scale(1.2);
+    background: #ff6600;
+    box-shadow: 0 5px 10px #000000;
+}
+
+footer h4{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width: 910px) {
+    footer{
+        padding: 30px;
+    }
+    footer h4{
+        margin-top: 20px;
+    }
+}
